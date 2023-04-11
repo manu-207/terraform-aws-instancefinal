@@ -9,12 +9,12 @@ module "instance" {
   
   ami_id                           = "ami-09c5c62bac0d0634e"
   instance_type                    = "t2.micro"
-  subnet1_id                       = "subnet-099a9035039d6feba"
-  security_group1                  = ["sg-06749b1d6761d810d"]
+  subnet1_id                       = "subnet-0d7e8969794b94116"
+  security_group1                  = ["sg-09b6bc4924b26a737"]
   key_name                         = "key"
   instance1_name                   = "web-ec2"
-  subnet2_id                       = "subnet-0e0d6acfd55340cee"
-  security_group2                  = ["sg-03a70ada11e4866ee"]
+  subnet2_id                       = "subnet-02f6ae782124dc89a"
+  security_group2                  = ["sg-021a643f2c7d313fc"]
   instance2_name                   = "app-ec2"
   associate_public_ip_address      = "true"
 
